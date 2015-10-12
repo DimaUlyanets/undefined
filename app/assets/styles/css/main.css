@@ -1,0 +1,9 @@
+/* line 1, app/assets/styles/scss/utils.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 3, app/assets/styles/scss/main.scss */
+.landing-wrapper {
+  text-align: center;
+}

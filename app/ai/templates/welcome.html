@@ -1,0 +1,8 @@
+
+<section id="welcome">
+   <p> Welcome, guest! What's your name?</p>
+    <input data-ng-model="vm.guest.name">
+    <p data-ng-if="vm.guest.name">
+        Nice to meet you, <span data-ng-bind="vm.guest.name"></span>
+    </p>
+</section>
