@@ -3,7 +3,90 @@
   font-weight: bold;
 }
 
-/* line 3, app/assets/styles/scss/main.scss */
+/* line 5, app/assets/styles/scss/utils.scss */
+.italic {
+  font-style: italic;
+}
+
+/* line 8, app/assets/styles/scss/utils.scss */
+.bg-white {
+  background-color: white;
+}
+
+/* line 2, app/assets/styles/scss/elements.scss */
+.mt-block {
+  border: 1px solid #E6E6E6;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 1px #F7F7F7;
+  padding: 15px;
+}
+
+/* line 10, app/assets/styles/scss/elements.scss */
+.side-nav {
+  border: 1px solid #E6E6E6;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 1px #F7F7F7;
+}
+/* line 14, app/assets/styles/scss/elements.scss */
+.side-nav ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+/* line 18, app/assets/styles/scss/elements.scss */
+.side-nav ul li a {
+  padding: 10px 15px;
+  width: 100%;
+  display: inline-block;
+}
+/* line 23, app/assets/styles/scss/elements.scss */
+.side-nav ul li a:hover {
+  background-color: #fafafa;
+}
+
+/* line 30, app/assets/styles/scss/elements.scss */
+.mt-info {
+  position: absolute;
+  right: 0;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  top: 0;
+  width: 470px;
+  font-size: 2.1rem;
+  border-left: 1px solid #E2E2EC;
+  overflow: hidden;
+  background-color: #ECF4F9;
+  height: 100%;
+}
+/* line 43, app/assets/styles/scss/elements.scss */
+.mt-info ul {
+  list-style: none;
+  position: relative;
+  z-index: 5;
+}
+/* line 48, app/assets/styles/scss/elements.scss */
+.mt-info ul li {
+  padding-bottom: 5px;
+}
+/* line 53, app/assets/styles/scss/elements.scss */
+.mt-info .fa {
+  position: absolute;
+  top: -70px;
+  right: -60px;
+  padding: 20px;
+  z-index: 0;
+  font-size: 24rem;
+  color: rgba(190, 236, 239, 0.48);
+}
+
+/* line 4, app/assets/styles/scss/main.scss */
+body {
+  background-color: #FCFDFF;
+  color: #4C4C4C;
+}
+
+/* line 9, app/assets/styles/scss/main.scss */
 .landing-wrapper {
   text-align: center;
 }

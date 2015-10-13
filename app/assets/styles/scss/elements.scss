@@ -1,0 +1,62 @@
+
+.mt-block{
+  border: 1px solid #E6E6E6;
+  position: relative;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 1px #F7F7F7;
+  padding: 15px;
+}
+
+.side-nav{
+  border: 1px solid #E6E6E6;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 1px #F7F7F7;
+  ul{
+    list-style: none;
+    padding:0;
+    margin-bottom: 0;
+    li a{
+      padding: 10px 15px;
+      width: 100%;
+      display: inline-block;
+
+      &:hover{
+        background-color: #fafafa;
+      }
+    }
+  }
+}
+
+.mt-info{
+  position: absolute;
+  right: 0;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  top: 0;
+  width: 470px;
+  font-size: 2.1rem;
+  border-left: 1px solid #E2E2EC;
+  overflow: hidden;
+  background-color: #ECF4F9;
+  height:100%;
+
+  ul{
+    list-style: none;
+    position: relative;
+    z-index: 5;
+
+    li{
+      padding-bottom: 5px;
+
+    }
+  }
+  .fa{
+    position: absolute;
+    top: -70px;
+    right: -60px;
+    padding: 20px;
+    z-index: 0;
+    font-size: 24rem;
+    color: rgba(190, 236, 239, 0.48);
+  }
+}
